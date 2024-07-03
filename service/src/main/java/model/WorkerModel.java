@@ -1,5 +1,7 @@
 package model;
 
+import java.util.List;
+
 public class WorkerModel {
     private String id;
 
@@ -8,6 +10,8 @@ public class WorkerModel {
     private String email;
 
     private String profile;
+
+    private List<String> jobIdList;
 
     public String getId() {
         return id;
@@ -39,5 +43,13 @@ public class WorkerModel {
 
     public void setProfile(String profile) {
         this.profile = profile;
+    }
+
+    public List<String> getJobIdList() {
+        return jobIdList;
+    }
+
+    public void setJobIdList(List<String> jobIdList) {
+        this.jobIdList = jobIdList;
     }
 }

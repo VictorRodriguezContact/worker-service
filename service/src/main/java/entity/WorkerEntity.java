@@ -1,5 +1,7 @@
 package entity;
 
+import java.util.List;
+
 public class WorkerEntity {
 //    @Id
     private String id;
@@ -9,6 +11,8 @@ public class WorkerEntity {
     private String email;
 
     private String profile;
+
+    private List<String> jobIdList;
 
     public String getId() {
         return id;
@@ -40,5 +44,13 @@ public class WorkerEntity {
 
     public void setProfile(String profile) {
         this.profile = profile;
+    }
+
+    public List<String> getJobIdList() {
+        return jobIdList;
+    }
+
+    public void setJobIdList(List<String> jobIdList) {
+        this.jobIdList = jobIdList;
     }
 }

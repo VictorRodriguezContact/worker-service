@@ -1,12 +1,12 @@
 package service;
 
-import model.WorkerModel;
+import model.JobModel;
 
 import java.util.List;
 
 public class JobServiceImpl implements JobService {
     @Override
-    public List<WorkerModel> getJobs(String id) {
+    public List<JobModel> getJob(String id) {
         return List.of();
     }
 }

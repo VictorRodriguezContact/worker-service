@@ -1,9 +1,9 @@
 package service;
 
-import model.WorkerModel;
+import model.JobModel;
 
 import java.util.List;
 
 public interface JobService {
-    List<WorkerModel> getJobs(String id);
+    List<JobModel> getJob(String id);
 }
